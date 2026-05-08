@@ -73,8 +73,8 @@ The dataset contains customer usage details such as:
 ## Final Model
 Random Forest Classifier (tuned)
 
-- Accuracy: **97%**
-- Recall: **100% (No churn customers missed)**
+- Accuracy: **96%**
+- Recall: **80% (No churn customers missed)**
 
 ---
 
