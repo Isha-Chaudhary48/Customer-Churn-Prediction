@@ -42,11 +42,14 @@ The dataset contains customer usage details such as:
 ### 3. Model Building
 - Logistic Regression
 - Random Forest Classifier
+- XGBoost Model
 
 ### 4. Model Evaluation
 - Accuracy
 - Precision, Recall, F1-score
 - Confusion Matrix
+- SMOTE
+- Hyperparameter tuning
 
 ---
 
@@ -55,7 +58,8 @@ The dataset contains customer usage details such as:
 | Model                | Accuracy | Recall (Churn) |
 |---------------------|----------|----------------|
 | Logistic Regression | ~91%     | ~64%           |
-| Random Forest       | **97%**  | **73**       |
+| Random Forest       | **96%**  | **80**         |
+| XGBoost             | **95%**  | **73**         |
 
 ---
 
@@ -81,8 +85,4 @@ This model helps businesses:
 - Improve customer retention strategies
 
 ---
-
-## Future Improvements
-- Deploy model using Streamlit
-- Hyperparameter tuning using GridSearchCV
-- Handle class imbalance using advanced techniques (SMOTE)
+LIVE LINK : https://customer-churn-prediction-by-isha.streamlit.app/
